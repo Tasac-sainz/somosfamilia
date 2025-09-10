@@ -1,88 +1,92 @@
-.cat-header {
-  background-image: url(images/kiko-zape.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.cat-page {
+    
+.cat-main {
+    .cat-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        gap: 40px; 
+        padding: 20px 5px 40px 5px;
+    
+        .kitten-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: 0.25s all;
+            box-shadow: 0 0.46875rem 2.1875rem rgb(4 9 20 / 3%),
+                0 0.9375rem 1.40625rem rgb(4 9 20 / 3%),
+                0 0.25rem 0.53125rem rgb(4 9 20 / 5%), 0 0.125rem 0.1875rem rgb(4 9 20 / 3%);
+            text-align: center;
+            height: auto;
+        
+            .kitten-image {
+                width: 70%;
+                height: 80%;
+                padding-top: 10px;
+            }
+        }
+    }
 
+    .subtitle {
+    text-align: center;
+    }   
+
+    .btn-contain {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+    
+        .cat-btn {
+            padding: 5px;
+            border-radius: 5px;
+            background-color:  rgb(213, 212, 209, 0.5);
+            font-weight: 600;
+        }
+    }
+
+    .cat-random-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 60px 0 150px 0;
+        gap: 30px;
+
+
+            .random-cat-img {
+                width: 250px;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+    }
 }
 
-.cat-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center; 
-  gap: 40px; 
-  padding: 20px 5px 40px 5px;
+
+@media screen and (min-width: 750px) {
+
+.cat-main {
+    .cat-container {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start; 
+        gap: 40px; 
+        padding: 20px 5px 40px 5px;
+
+            .kitten-card {
+                width: 90% !important;
+                height: 400px;
+                margin: 0 !important;
+            }      
+    }
+
+    .cat-random-container {
+    flex-direction: column;
+    }
+
 }
-
-.kitten-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding: 10px;
-  transition: 0.25s all;
-  box-shadow: 0 0.46875rem 2.1875rem rgb(4 9 20 / 3%),
-    0 0.9375rem 1.40625rem rgb(4 9 20 / 3%),
-    0 0.25rem 0.53125rem rgb(4 9 20 / 5%), 0 0.125rem 0.1875rem rgb(4 9 20 / 3%);
-  text-align: center;
-  height: 400px;
-}
-
-.kitten-image {
-    width: 70%;
-    height: 80%;
-    padding-top: 10px;
-}
-
-.subtitle {
-  text-align: center;
-}
-
-.btn-contain {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 40px;
-}
-.cat-btn {
-  padding: 5px;
-  border-radius: 5px;
-  background-color:  rgb(213, 212, 209, 0.5);
-  font-weight: 600;
-}
-
-.cat-random-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 0 150px 0;
-  gap: 10px;
-}
-.random-cat-img {
-  width: 40%;
-  height: auto;
-  border-radius: 10px;
-}
-
-
-
-@media screen and (max-width: 700px) {
-
-.cat-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.cat-random-container {
-  flex-direction: column;
-}
-
-.kitten-card {
-  width: 80%;
- }
-
 }

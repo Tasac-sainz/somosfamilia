@@ -1,34 +1,22 @@
 .index-header {
-    background-image: url(images/all-in-bed.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+    background-size: cover;
 }
+
+.index-page .index-header {
+        background-image: url("../images/all-in-bed.jpg");
+}
+.dog-page .index-header{
+        background-image: url("../images/sleeping-dog.jpg");
+    }
 
 a {
     text-decoration: none;
-}
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 400px;
-    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
-}
-.dog-header {
-    background-image: url(images/sleeping-dog.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 400px;
-    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
-}
-
-.cat-header {
-    background-image: url(../img/kiko-zape.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .title {
@@ -41,7 +29,6 @@ header {
     font-size: clamp(24px, 5vw, 80px);
     
 }
-
 .menu-nav {
     display: flex;
     flex-direction: column;
@@ -81,3 +68,18 @@ header {
   transition: opacity 0.3s ease; 
 }
 
+
+
+
+
+@media screen and (max-width: 700px) {
+    .title {
+    font-size: 40px;
+}
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+}

@@ -50,14 +50,14 @@ const kittenData_7= {
 const kittenData_8= {
     nameKitten: "Benni",
     raceKitten: "(Toyger)",
-    descripKitten: "El gato Toyger es una raza que busca parecerse lo más posible a un tigre en miniatura. Tiene un llamativo pelaje corto, le encanta perseguir a los miembros de la familia por la casa, acurrucarse a su lado y demandar atención. El Toyger repartirá su cariño por igual con todos los habitantes del hogar. Como curiosidad, a los gatitos Toyger les encanta el agua!, nadar y chapotear es de sus mayores aficiones.",
+    descripKitten: "El gato Toyger es una raza que busca parecerse al máximo a un tigre en miniatura. Tiene un llamativo pelaje corto, le encanta perseguir a los miembros de la familia, acurrucarse a su lado y demandar atención. El Toyger repartirá su cariño por igual con todos los habitantes del hogar. Dato curioso: a los gatitos Toyger les encanta el agua!",
     imageKitten: "https://www.tiendanimal.es/articulos/wp-content/uploads/2022/02/Toyger-640x427.jpg"
     };
 
 const kittenData_9= {
     nameKitten: "Dalí",
     raceKitten: "(Azul Ruso)",
-    descripKitten: "Es un gato grande, de pelaje suave totalmente gris y ojos verdes. Son temperamentales, muy inteligentes y con mucho apego hacia sus personas referentes, son muy mimosos y moderadamente activos, pero es mejor tenerle entretenido para que ni la líe... Debido a que es un gato muy apegado, es conveniente que conviva con otro gato para que no se sienta solo",
+    descripKitten: "Es un gato grande, de pelaje suave totalmente gris y ojos verdes. Son temperamentales, muy inteligentes y con mucho apego hacia sus personas referentes, son mimosos y moderadamente activos, pero conviene tenerle entretenido para que no la líe... Como es un gato muy apegado, es mejor que conviva con otro gato para que no se sienta solo.",
     imageKitten: "https://www.zooplus.es/magazine/wp-content/uploads/2017/10/Gato-azul-ruso.webp"
     };
 
