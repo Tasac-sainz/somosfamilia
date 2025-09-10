@@ -9,11 +9,21 @@
 }
 
 .index-page .index-header {
-        background-image: url("../images/all-in-bed.jpg");
+    background-image: url("../images/all-in-bed.jpg");
 }
 .dog-page .index-header{
-        background-image: url("../images/sleeping-dog.jpg");
-    }
+    background-image: url("../images/sleeping-dog.jpg");
+}
+.cat-page .index-header {
+    background-image: url("../images/kiko-zape.jpeg");
+}
+.vete-page .index-header {
+    background-image: url("../images/centros-veterinarios.png");
+}
+.contact-page .index-header {
+    background-image: url("../images/all-in-bed.jpg");
+
+}
 
 a {
     text-decoration: none;
