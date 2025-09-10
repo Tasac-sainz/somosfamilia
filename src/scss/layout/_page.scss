@@ -1,9 +1,161 @@
 @use '../core/variables' as vars;
 
-body {
-    padding: 2rem;
-    height: 100vh;
-    background-image: url('../images/bg-adalab.png');
-    background-color: vars.$color-bg;
-    font-family: vars.$font-main;
+a {
+    text-decoration: none;
+}
+.index-header {
+    background-image: url(../img/all-in-bed.jpg);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+}
+.dog-header {
+    background-image: url(../img/sleeping-dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+}
+
+.cat-header {
+    background-image: url(../img/kiko-zape.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer a {
+    color: white;
+}
+main {
+    background-color: rgb(231, 229, 229);
+    padding-top: 20px;
+}
+h2 {
+    padding: 50px 20px 10px 20px;
+    text-align: center;
+}
+
+.title {
+    background-color: rgb(213, 212, 209, 0.5);
+    text-align: center;
+    height: min-content;
+    border-radius: 10px;
+    font-family: "Permanent Marker";
+    color: rgb(27, 27, 27);
+    font-size: clamp(24px, 5vw, 80px);
+    
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    left: 20px;
+    top: 50%;                           
+    transform: translateY(-50%);      
+}
+
+.list {
+    background-color:  rgb(213, 212, 209, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+.list a {
+    color: black;
+    text-decoration: none;
+}
+.list a:visited {
+    color: black;
+}
+
+.burger-menu {
+    width: 50px;
+    height: auto;
+    background-color: rgb(213, 212, 209, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -120px;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease; 
+}
+
+
+.paragraph {
+ margin-top: 30px;
+ line-height: 40px;
+ font-size: 20px;
+ padding: 0 40px 10px 40px;
+ text-align: center;
+
+}
+
+.p-content-final {
+    margin-bottom: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tango {
+    width:90% ;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 40px 0 40px 0;
+    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 700px) {
+
+li {
+    margin-bottom: 15px;
+}
+.tango {
+    width: 80%;
+}
+    
+footer {
+    gap: 0;
+}
+
+.p-footer {
+    font-size: 10px;
+    }
+
+.title {
+    font-size: 40px;
+}
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 }

@@ -1,0 +1,111 @@
+.dog-header {
+    background-image: url(../img/sleeping-dog.jpg);
+}
+
+.jack-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.jack {
+    width: 50%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+}
+
+.search-dog_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.select-dog_form {
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.result-form {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.dog-img {
+    width: 30%;
+    border-radius: 10px;
+    max-height:min-content;
+}
+.dog-description {
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+}
+.dog-description.quote {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Permanent Marker";
+    padding: 80px 20px 80px 0;
+}
+
+@media screen and (max-width: 700px) {
+    .dog-header {
+        background-size: cover;
+    }
+    .jack-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .jack {
+        width: 70%;
+        max-width: 400px;
+    }
+
+    .search-container {
+        width: 85%;
+    }
+
+    .result-form {
+        margin: 20px;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .dog-description {
+        font-size: 12px;
+        width: 40%;
+        padding: 10px;
+    }
+    .dog-description.quote {
+        font-family: 'Permanent Marker';
+        font-size: 12px;
+        padding: 20px 10px 40px 10px;
+    }
+
+    .dog-img {
+        width: 50%;
+        padding-right: 10px;
+    }
+   
+    footer {
+        justify-content: space-around;
+    }
+}
