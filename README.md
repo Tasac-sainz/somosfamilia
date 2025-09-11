@@ -1,2 +1,6 @@
 # somosfamilia
-Este repositorio alberga una página web informativa sobre perros, gatos y veterinarios de confianza en la Sierra Norte de Madrid
+Este repositorio forma parte de mi formación como desarrolladora web. En él, he recreado la página web de la ONG Somos Familia, utilizando HTML y SCSS para el desarrollo del frontend y JavaScript para añadir interactividad a la página.
+
+El objetivo principal de este proyecto es practicar y mejorar mis habilidades en el desarrollo web, aplicando los conocimientos adquiridos durante mi formación. La página web incluye varias secciones, como un encabezado, un pie de página, y diferentes componentes que representan la estructura y el contenido de la ONG, así como diversas páginas internas, una de ellas, un formulario de contacto totalmente funcional.
+
+He utilizado SCSS para gestionar los estilos de manera más eficiente, aprovechando sus características como el anidamiento; he utilizado ecnologías como Flex y Grid para mejorar la apariencia y que el diseño fuera más robusto, garantizando también la implementación del principio *Mobile First*. Además, he implementado JavaScript para manejar eventos y mejorar la experiencia del usuario en la página.
