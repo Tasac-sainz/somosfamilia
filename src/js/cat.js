@@ -32,7 +32,7 @@ const kittenData_5= {
     nameKitten: "Pancho",
     raceKitten: "(Siamés)",
     descripKitten: "Porte elegante, su patrón de color tan característico y sus ojos de un azul intenso, pero su historia se remonta a Asia al menos hace 500 años, donde tuvo su origen muy posiblemente.",
-    imageKitten: "https://dev.adalab.es/gato-siames.webp",
+    imageKitten: "https://upload.wikimedia.org/wikipedia/commons/6/60/Neighbours_Siamese.jpg",
 }
 const kittenData_6= {
     nameKitten: "Wild",
@@ -44,7 +44,7 @@ const kittenData_7= {
     nameKitten: "Cielo",
     raceKitten: "(Maine Coon)",
     descripKitten: "Tienen la cabeza cuadrada y los ojos simétricos, por lo que su bella mirada se ha convertido en una de sus señas de identidad. Sus ojos son grandes y las orejas resultan largas y en punta.",
-    imageKitten: "https://dev.adalab.es/maine-coon-cat.webp",
+    imageKitten: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9HGsgu-cCqVzjgql9_8zmfCFiOwg3jYTXQEBAH31Uc3jz-tKkRhL-JrigOrTo_pU_1qFulMi8n5hjgKyY1BNHtqQ5tbme4YoInWgVhw",
 }
 
 const kittenData_8= {

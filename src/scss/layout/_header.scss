@@ -3,25 +3,29 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 400px;
+    height: 40vh;
     box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
     background-size: cover;
 }
 
 .index-page .index-header {
     background-image: url("../images/all-in-bed.jpg");
+    background-position: 20%;
 }
 .dog-page .index-header{
     background-image: url("../images/sleeping-dog.jpg");
+    background-position: 10%;
 }
 .cat-page .index-header {
     background-image: url("../images/kiko-zape.jpeg");
+    background-position: 50%;
 }
 .vete-page .index-header {
     background-image: url("../images/centros-veterinarios.png");
+    background-position: 80%;
 }
 .contact-page .index-header {
-    background-image: url("../images/all-in-bed.jpg");
+    background-image: url("../images/talking-dog-and-cat.png");
 
 }
 
@@ -32,11 +36,11 @@ a {
 .title {
     background-color: rgb(213, 212, 209, 0.5);
     text-align: center;
-    height: min-content;
     border-radius: 10px;
     font-family: "Permanent Marker";
     color: rgb(27, 27, 27);
-    font-size: clamp(24px, 5vw, 80px);
+    font-size: 24px;
+    padding: 20px;
     
 }
 .menu-nav {
@@ -50,7 +54,7 @@ a {
 }
 
 .list {
-    background-color:  rgb(213, 212, 209, 0.5);
+    background-color:  rgba(174, 173, 171, 0.771);
     padding: 15px;
     border-radius: 10px;
     margin-top: 10px; 
@@ -58,6 +62,7 @@ a {
 .list a {
     color: black;
     text-decoration: none;
+    font-weight: 600;
 }
 .list a:visited {
     color: black;
@@ -69,7 +74,6 @@ a {
     background-color: rgb(213, 212, 209, 0.5);
     border-radius: 10px;
     cursor: pointer;
-    margin-top: -120px;
 }
 
 .hidden {
@@ -82,14 +86,9 @@ a {
 
 
 
-@media screen and (max-width: 700px) {
-    .title {
-    font-size: 40px;
-}
-header {
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
+@media screen and (min-width: 750px) {
+.title {
+    font-size: 60px;
+    }
 
 }
