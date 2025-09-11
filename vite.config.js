@@ -31,7 +31,7 @@ const inputFilesList = {
 }
 
 export default defineConfig({
-  base: "./somosfamilia",
+  base: "./",
   root: "src",
   publicDir: "../public",
   build: {
