@@ -22,10 +22,12 @@
 }
 .vete-page .index-header {
     background-image: url("../images/centros-veterinarios.png");
-    background-position: 80%;
+    background-position-x: 80%;
+    background-position-y: 25%;
 }
 .contact-page .index-header {
     background-image: url("../images/talking-dog-and-cat.png");
+    height: 60vh;
 
 }
 
@@ -74,6 +76,7 @@ a {
     background-color: rgb(213, 212, 209, 0.5);
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 50px;
 }
 
 .hidden {
@@ -83,12 +86,8 @@ a {
 }
 
 
-
-
-
 @media screen and (min-width: 750px) {
 .title {
     font-size: 60px;
     }
-
 }

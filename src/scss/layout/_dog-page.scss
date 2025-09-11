@@ -3,22 +3,12 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-}
-.jack {
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
-}
 
-.search-dog_form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 10px;
-    gap: 20px;
-    font-size: 15px;
-    font-weight: 500;
+    .jack {
+        width: 80%;
+        border-radius: 10px;
+        box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 1);
+    }
 }
 
 .search-container {
@@ -27,37 +17,50 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-}
-.select-dog_form {
-    font-size: 15px;
-    padding: 3px;
-    border-radius: 8px;
+
+    .search-dog_form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 10px;
+        gap: 20px;
+        font-size: 15px;
+        font-weight: 500;
+
+        .select-dog_form {
+            font-size: 15px;
+            padding: 3px;
+            border-radius: 8px;
+        }       
+    }
+    .result-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .dog-description {
+            text-align: center;
+            font-size: 14px;
+            padding: 0 30px 0 30px;
+        }
+        .dog-description.quote {
+            font-size: 20px;
+            font-weight: 700;
+            font-family: "Permanent Marker";
+            padding: 50px 30px 50px 30px;
+        }
+        .dog-img {
+            width: 70%;
+            border-radius: 10px;
+        }
+    }
 }
 
-.result-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.dog-img {
-    width: 70%;
-    border-radius: 10px;
-}
-.dog-description {
-    text-align: center;
-    font-size: 14px;
-    padding: 0 30px 0 30px;
-}
-.dog-description.quote {
-    font-size: 20px;
-    font-weight: 700;
-    font-family: "Permanent Marker";
-    padding: 50px 30px 50px 30px;
-}
 
 @media screen and (min-width: 750px) {
 
@@ -65,9 +68,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .jack {
-        width: 50%;
+    
+        .jack {
+            width: 50%;
+        }
     }
 
     .search-container {
@@ -75,39 +79,36 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .search-dog_form {
-        font-size: 20px;
-    }
-
-    .result-form {
-        margin: 20px;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap:20px;
-    }
-
-    .dog-description {
-        font-size: 20px;
-        width: 40%;
-        padding: 10px;
-    }
-    .dog-description.quote {
-        font-family: 'Permanent Marker';
-        font-size: 24px;
-        width: 80%;
-        padding: 20px 10px 40px 10px;
-    }
-
-    .dog-img {
-        width: 40%;
-        padding: 10px;
-        border-radius: 10px;
-    }
    
-    footer {
-        justify-content: space-around;
+        .search-dog_form {
+            font-size: 20px;
+        }
+    }
+
+    .search-container {
+        .result-form {
+            margin: 20px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+        
+            .dog-description {
+                font-size: 18px;
+                width: 35%;
+                padding: 10px;
+            }
+            .dog-description.quote {
+                font-family: 'Permanent Marker';
+                font-size: 24px;
+                width: 80%;
+                padding: 20px 10px 40px 10px;
+            }
+            .dog-img {
+                width: 50%;
+                max-height: 600px;
+                padding: 20px;
+            }
+        }
     }
 }

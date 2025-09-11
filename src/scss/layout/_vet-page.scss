@@ -1,38 +1,38 @@
-
 .p-content {
     margin-bottom: 60px;
 }
 
 .vets {
-    
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin: 0 auto;
     padding-bottom: 50px;
+
+    .vets-card{
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+    }
+    .vets-card_img {
+        width: 150px;
+        height: 100px;
+        margin: 10px 0 10px 0;
+    }
+    .vets-card_descrip {
+        font-size: 15px;
+        width: 70%;
+        margin: 5px auto;
+        text-align: center;
+    }
+    .vets-card_direction {
+        margin: 5px 0 5px 0;
+        font-weight: 600;
+        font-size: 15px;
+    }
 }
-.vets-card{
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
-}
-.vets-card_img {
-    width: 150px;
-    height: 100px;
-    margin: 10px 0 10px 0;
-}
-.vets-card_descrip {
-    font-size: 15px;
-    width: 70%;
-    margin: 5px auto;
-    text-align: center;
-}
-.vets-card_direction {
-    margin: 5px 0 5px 0;
-    font-weight: 600;
-    font-size: 15px;
-}
-.clinic-paragraph{
+
+.clinic-paragraph {
     font-size: 15px;
     font-family: 'Permanent Marker';
     text-align: center;
@@ -57,6 +57,7 @@
         .vets-card_descrip {
             font-size: 20px;
         }
+        
     }
     .clinic-paragraph{
         font-size: 24px;

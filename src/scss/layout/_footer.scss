@@ -1,11 +1,9 @@
-@use '../core/variables' as vars;
-
 footer {
     background-color: black;
     color: white;
     font-weight: 600;
+    font-size: 10px;
     display: flex;
-    gap: 150px;
     justify-content: space-between;
     padding: 10px;
 }
@@ -13,12 +11,11 @@ footer a {
     color: white;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 750px) {
     footer {
-    gap: 0;
+        gap: 300px;
+    .p-footer {
+        font-size: 15px;
     }
-
-.p-footer {
-    font-size: 10px;
-    }
+}
 }
