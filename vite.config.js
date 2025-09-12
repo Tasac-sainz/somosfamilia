@@ -28,6 +28,9 @@ const htmlFilesList = Object.fromEntries(
 const inputFilesList = {
   ...htmlFilesList,
   'main': 'src/js/main.js',
+  'dog': 'src/js/dog.js',
+  'cat': 'src/js/cat.js',
+  'vet': 'src/js/vet.js',
 }
 
 export default defineConfig({
