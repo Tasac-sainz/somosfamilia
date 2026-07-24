@@ -1,0 +1,497 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Calibri, sans-serif;
+}
+
+main {
+  background-color: rgb(231, 229, 229);
+  padding-top: 20px;
+}
+main h2 {
+  padding: 50px 20px 10px 20px;
+  text-align: center;
+}
+main .paragraph {
+  margin-top: 30px;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 0 40px 10px 40px;
+  text-align: center;
+}
+main .p-content-final {
+  margin-bottom: 100px;
+}
+main .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .tango {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin: 40px 0 40px 0;
+  box-shadow: 0px 20px 30px -10px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 700px) {
+  li {
+    margin-bottom: 15px;
+  }
+  .tango {
+    width: 80%;
+  }
+}
+.index-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 40vh;
+  box-shadow: 0px 20px 30px -10px rgb(0, 0, 0);
+  background-size: cover;
+}
+
+.index-page .index-header {
+  background-image: url("../images/all-in-bed.jpg");
+  background-position: 20%;
+}
+
+.dog-page .index-header {
+  background-image: url("../images/sleeping-dog.jpg");
+  background-position: 10%;
+}
+
+.cat-page .index-header {
+  background-image: url("../images/kiko-zape.jpeg");
+  background-position: 50%;
+}
+
+.vete-page .index-header {
+  background-image: url("../images/centros-veterinarios.png");
+  background-position-x: 80%;
+  background-position-y: 25%;
+}
+
+.contact-page .index-header {
+  background-image: url("../images/talking-dog-and-cat.png");
+  height: 60vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  background-color: rgba(213, 212, 209, 0.5);
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Permanent Marker";
+  color: rgb(27, 27, 27);
+  font-size: 24px;
+  padding: 20px;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.list {
+  background-color: rgba(174, 173, 171, 0.771);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.list a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.list a:visited {
+  color: black;
+}
+
+.burger-menu {
+  width: 50px;
+  height: auto;
+  background-color: rgba(213, 212, 209, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+@media screen and (min-width: 750px) {
+  .title {
+    font-size: 60px;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+}
+
+@media screen and (min-width: 750px) {
+  footer {
+    gap: 300px;
+  }
+  footer .p-footer {
+    font-size: 15px;
+  }
+}
+.cat-page .cat-main .cat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 5px 40px 5px;
+}
+.cat-page .cat-main .cat-container .kitten-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s all;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+  text-align: center;
+  height: auto;
+}
+.cat-page .cat-main .cat-container .kitten-card .kitten-image {
+  width: 70%;
+  height: 80%;
+  padding-top: 10px;
+}
+.cat-page .cat-main .cat-container .kitten-card .kitten-description {
+  padding: 10px 20px 10px 20px;
+}
+.cat-page .cat-main .subtitle {
+  text-align: center;
+}
+.cat-page .cat-main .btn-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.cat-page .cat-main .btn-contain .cat-btn {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(213, 212, 209, 0.5);
+  font-weight: 600;
+}
+.cat-page .cat-main .cat-random-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 0 150px 0;
+  gap: 30px;
+}
+.cat-page .cat-main .cat-random-container .random-cat-img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  .cat-main .cat-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    gap: 40px;
+    padding: 20px 5px 40px 5px;
+  }
+  .cat-main .cat-container .kitten-card {
+    width: 90% !important;
+    height: 400px;
+    margin: 0 !important;
+  }
+  .cat-main .cat-random-container {
+    flex-direction: column;
+  }
+}
+.contact-main {
+  padding: 20px;
+}
+.contact-main .title-page {
+  text-align: center;
+  padding-top: 30px;
+}
+.contact-main .p-contact {
+  padding-bottom: 50px;
+}
+.contact-main .contact-form {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #888888;
+  margin: 10px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: rgba(213, 212, 209, 0.5);
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  font-family: calibri, sans-serif;
+}
+.contact-main .contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.contact-main .contact-form textarea {
+  height: 250px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.contact-main .contact-form textarea::placeholder {
+  text-align: center;
+  padding: 15px;
+}
+.contact-main .contact-form .input-contact {
+  border-radius: 10px;
+  padding: 5px;
+  width: 80%;
+}
+.contact-main .contact-form .btn-form {
+  padding: 8px;
+  background-color: #c0b9b9;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 750px) {
+  .contact-main .contact-form {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(213, 212, 209, 0.5);
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    font-family: calibri, sans-serif;
+  }
+  .contact-main .contact-form .form-group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 80%;
+  }
+  .contact-main .contact-form textarea {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .contact-main .contact-form textarea::placeholder {
+    text-align: center;
+    padding: 15px;
+  }
+  .contact-main .contact-form .input-contact {
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+  }
+  .contact-main .contact-form .btn-form {
+    padding: 8px;
+    background-color: #c0b9b9;
+    font-weight: 600;
+    border-radius: 8px;
+  }
+}
+.jack-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.jack-container .jack {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 20px 30px -10px rgb(0, 0, 0);
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.search-container .search-dog_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.search-container .search-dog_form .select-dog_form {
+  font-size: 15px;
+  padding: 3px;
+  border-radius: 8px;
+}
+.search-container .result-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.search-container .result-form .dog-description {
+  text-align: center;
+  font-size: 14px;
+  padding: 0 30px 0 30px;
+}
+.search-container .result-form .dog-description.quote {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Permanent Marker";
+  padding: 50px 30px 50px 30px;
+}
+.search-container .result-form .dog-img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  .jack-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .jack-container .jack {
+    width: 50%;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-container .search-dog_form {
+    font-size: 20px;
+  }
+  .search-container .result-form {
+    margin: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .search-container .result-form .dog-description {
+    font-size: 18px;
+    width: 35%;
+    padding: 10px;
+  }
+  .search-container .result-form .dog-description.quote {
+    font-family: "Permanent Marker";
+    font-size: 24px;
+    width: 80%;
+    padding: 20px 10px 40px 10px;
+  }
+  .search-container .result-form .dog-img {
+    width: 50%;
+    max-height: 600px;
+    padding: 20px;
+  }
+}
+.p-content {
+  margin-bottom: 60px;
+}
+
+.vets {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.vets .vets-card {
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+.vets .vets-card_img {
+  width: 150px;
+  height: 100px;
+  margin: 10px 0 10px 0;
+}
+.vets .vets-card_descrip {
+  font-size: 15px;
+  width: 70%;
+  margin: 5px auto;
+  text-align: center;
+}
+.vets .vets-card_direction {
+  margin: 5px 0 5px 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.clinic-paragraph {
+  font-size: 15px;
+  font-family: "Permanent Marker";
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 750px) {
+  footer {
+    font-size: 10px;
+    justify-content: space-around;
+  }
+  .vets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    max-width: 900px;
+  }
+  .vets .vets-card_descrip {
+    font-size: 20px;
+  }
+  .clinic-paragraph {
+    font-size: 24px;
+  }
+}
