@@ -18,7 +18,7 @@ const vets = [
         descrip:
             "Buen trato y empatía hacia los animales y referentes, especilidades poco comunes como la Terapia Hormonal Sustitutiva",
         direction: "San Agustín del Guadalix",
-        link: "https://www.madvet.es/las-4-huellas/",
+        link: "https://www.madvet.es/las-4-huellas",
     },
     {
         name: "Sirio",
